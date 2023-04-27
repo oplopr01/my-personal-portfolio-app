@@ -6,11 +6,6 @@
 }
 
 
-/*    @media (max-width: 767px) {
-       nav {
-           
-             font-size: 20px
-                                            } */
 
 @media (max-width: 800px) {
     html,
@@ -26,6 +21,7 @@
 .card {
     flex: 1 1 300px;
     margin: 10px;
+    /* text-align: ; */
 }
 .main-about{
     display: flex;
@@ -39,23 +35,16 @@ nav ul li{
 }
 
 
+@media only screen and (max-width: 800px) {
+    .head {
+    background-position: 20% 0px!important;
+    }
+    }
 
 
-/* @media (max-width: 767px) {
-    .column {
-        flex-basis: 100%;
-    }
-} */
-/* 
-@media screen and (max-width: 767px) {
-    
-    .main-about{
-        display: block;
-    }
-} */
 
 .head {
-    height: 100vh;
+    height: 60vh;
     /* width: 100%; */
     background-image: url(./bg.jpg);
     background-color: rgba(118, 34, 126, 0.738);
@@ -78,7 +67,13 @@ nav {
 }
 
 .intro-text {
-    color: #ffffff;
+    color: rgb(255, 255, 255);
+    text-align: center;
+   
+}
+.intro-text span{
+    /* background-color: aquamarine; */
+    background: rgba(214, 189, 189,0.2)
 }
 
 .intro {
@@ -144,7 +139,7 @@ nav {
 }
 
 #logo1 {
-    color: blue
+    color: orange
 }
 
 #logo2 {
@@ -195,7 +190,7 @@ h4 {
 .about {
     width: fit-content;
     height: auto;
-    padding: 0px 10px;
+    padding: 0px;
     background-color: rgb(17, 16, 16);
     /* display: flex; */
     justify-content: center;
@@ -213,7 +208,7 @@ h4 {
 
 .about-text {
     width: 100%;
-    padding-top: 10em;
+    padding-top: 6em;
     letter-spacing: 3px;
     font-size: 15px;
     font-weight: normal;
