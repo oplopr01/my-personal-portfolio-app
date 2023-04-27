@@ -31,6 +31,10 @@
     display: flex;
     flex-wrap: wrap;
 }
+nav ul li{
+    display: flex;
+    text-align: auto;
+}
 
 }
 
@@ -66,7 +70,7 @@ nav {
     justify-content: space-between;
     padding: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 #profile {
