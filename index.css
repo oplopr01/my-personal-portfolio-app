@@ -1,12 +1,10 @@
-
-
-*{
-    padding:0%;
+* {
+    padding: 0%;
     margin: 0%;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
-    
 }
+
 
 /*    @media (max-width: 767px) {
        nav {
@@ -14,35 +12,46 @@
              font-size: 20px
                                             } */
 
-
 @media (max-width: 800px) {
-  html, body {
-  overflow-x: clip;
-  }
-}
+    html,
+    body {
+        overflow-x: clip;
+    }
 
 .content {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
 }
 
 .card {
     flex: 1 1 300px;
-    /* Adjust the width as needed */
     margin: 10px;
+}
+.main-about{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 }
 
 
-/* Media query for mobile devices */
 
-@media (max-width: 767px) {
+
+/* @media (max-width: 767px) {
     .column {
         flex-basis: 100%;
     }
-}
+} */
+/* 
+@media screen and (max-width: 767px) {
+    
+    .main-about{
+        display: block;
+    }
+} */
 
-.head{
-    height:100vh;
+.head {
+    height: 100vh;
     /* width: 100%; */
     background-image: url(./bg.jpg);
     background-color: rgba(118, 34, 126, 0.738);
@@ -50,51 +59,52 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
 }
 
-
-#profile{
+#profile {
     color: green;
 }
 
-.intro-text{
+.intro-text {
     color: #ffffff;
 }
-.intro{
-    font-family:  -apple-system, sans-serif;
+
+.intro {
+    font-family: -apple-system, sans-serif;
     font-size: 15px;
     color: azure;
-    position: ;
+    position: clip;
     padding-top: 10%;
     padding-left: 60%;
     /* padding-right: 25%; */
 }
-.download{
-    font-family:  cursive;
+
+.download {
+    font-family: cursive;
     font-size: 15px;
     color: azure;
     padding-top: 5%;
     padding-left: 2%;
     display: inline-block;
-width: 80px;
-height: 40px;
-font-size: 20px;
-color: black;
-text-align: center;
-border-radius: 50%;
-box-sizing: border-box;
-line-height: 40px;
-
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    line-height: 40px;
 }
 
-#de{
+#de {
     text-decoration: none;
 }
 
@@ -106,36 +116,34 @@ line-height: 40px;
     background: rgba(242, 239, 239, 0.6);
     border-radius: 50%;
     cursor: pointer;
-    box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1) ;
+    box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1);
     transition: all 0.5s ease-out;
     overflow: hidden;
-    font-family:  cursive;
-   
-    
+    font-family: cursive;
 }
 
-
-#downloadcv:hover{
+#downloadcv:hover {
     width: max-content;
     border-radius: 2%;
     text-align: center;
 }
 
-
-.pra{
+.pra {
     text-align: center;
 }
 
-.logo{
+.logo {
     font-size: 40px;
     font-family: cursive;
     color: antiquewhite;
     letter-spacing: 1px;
 }
-#logo1{
+
+#logo1 {
     color: blue
 }
-#logo2{
+
+#logo2 {
     color: rgb(34, 214, 34);
 }
 
@@ -143,11 +151,9 @@ nav ul li {
     display: inline-block;
     /* list-style-type: none; */
     padding: 0px 10px;
-   
 }
 
-
-nav ul li a{
+nav ul li a {
     color: rgb(170, 178, 185);
     /* text-decoration: none; */
     text-transform: capitalize;
@@ -159,162 +165,146 @@ nav ul li a:hover {
     border: 3px dotted lightcyan;
     background-color: rgb(206, 206, 206);
     border-radius: 7px;
-
 }
 
-#resume-txt{
+#resume-txt {
     color: black;
     font-weight: 900;
 }
 
-h1{
-    color:ghostwhite;
+h1 {
+    color: ghostwhite;
     font-variant: small-caps;
     margin: 20px 0px 20px;
     font-size: 40px;
 }
 
-h2  h3 {
+h2 h3 {
     align-items: center;
 }
 
-h4{
+h4 {
     font-size: 25px;
     font-family: fantasy;
-    
 }
 
 .about {
-    width:fit-content;
+    width: fit-content;
     height: auto;
     padding: 0px 10px;
     background-color: rgb(17, 16, 16);
-    display: flex;
+    /* display: flex; */
     justify-content: center;
-   
 }
 
 .main-about {
-    display: flex;
+    display: flex;     
     justify-content: center;
-   
-    
 }
-.main-about img{
+
+.main-about img {
     height: 30rem;
-width: 100%;
-
-
+    width: 50%;
 }
 
 .about-text {
     width: 100%;
-    padding-top:10em;
+    padding-top: 10em;
     letter-spacing: 3px;
     font-size: 15px;
-    font-weight:normal;
+    font-weight: normal;
     justify-content: center;
     color: whitesmoke;
-    
 }
-.about-text h3{
+
+.about-text h3 {
     padding-bottom: 10px;
-    font-size:25px;
+    font-size: 25px;
 }
 
-
-.about-text p{
+.about-text p {
     letter-spacing: 4px;
-    text-align:justify;
+    text-align: justify;
     padding-bottom: 30px;
     font-weight: bold;
-    
 }
+
 .about-text h3:hover {
     color: orangered;
     font-size: 200%;
 }
-
-
-
-
-
 
 #content-head {
     padding-left: 40%;
     padding-right: 40%;
 }
 
-
 .qualifications {
-   background-color: orangered;
-   color:turquoise;
-   width: 100%;
-   height:fit-content;
-   padding: 1px 0px;
-   
-
+    background-color: orangered;
+    color: turquoise;
+    width: 100%;
+    height: fit-content;
+    padding: 1px 0px;
 }
 
-.qualifications .title h4{
+.qualifications .title h4 {
     text-align: center;
-    font-family:cursive;
+    font-family: cursive;
     font-weight: 600;
     padding-top: 2px;
     font-size: 55px;
 }
 
-
-.content{
+.content {
     display: flex;
     margin-inline: 40px;
     justify-content: center;
-    
 }
 
-.card{
-   height:max-content;
-   width: 100%;
-   padding: 10px 15px;
-   background-color: rgba(33, 34, 30, 0.981);
-   border-radius: 15px;
-   margin: 15px;
-   position:relative;
-   overflow:hidden ;
-   text-align: center;
-   font-weight: 800;
-    
+.card {
+    height: max-content;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: rgba(33, 34, 30, 0.981);
+    border-radius: 15px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 800;
 }
 
-.card i{
+.card i {
     font-size: 55px;
     padding-bottom: 15px;
     text-align: center;
 }
-.card h5{
+
+.card h5 {
     font-size: 15px;
     padding-bottom: 5px;
     font-weight: 1200;
     text-align: center;
 }
 
-.certificates ul{
+.certificates ul {
     padding: 6px;
-
 }
-.card p{
+
+.card p {
     text-align: justify;
 }
 
 .certificates-pdf {
     color: turquoise;
 }
+
 .certificates-pdf:hover {
     color: rgb(224, 221, 64);
     font-size: 18px;
 }
 
-.askFor{
+.askFor {
     font-size: 40px;
     text-align: center;
     padding-bottom: 30px;
@@ -323,63 +313,55 @@ width: 100%;
     color: aliceblue;
 }
 
-.hire{
+.hire {
     text-align: center;
-
-
 }
 
-.hire input{
+.hire input {
     box-shadow: 3px 5px;
     border-radius: 10px;
-    width:auto;
+    width: auto;
     color: orangered;
     font-weight: 1500;
     font-size: 25px;
     font-family: cursive;
-
 }
 
-.hire input:hover{
+.hire input:hover {
     color: white;
     font-weight: 1500;
     border-color: white;
     background-color: blue;
 }
 
-.foot{
+.foot {
     width: 100%;
     height: auto;
     background-color: orangered;
     text-align: center;
-    justify-content:flex-start ;
+    justify-content: flex-start;
 }
-
 
 .wrapper .button {
     display: inline-block;
-    width:40px;
+    width: 40px;
     height: 40px;
- 
     margin: 0 20px;
     background: rgba(242, 239, 239, 0.6);
     border-radius: 50%;
     cursor: pointer;
-    box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1) ;
+    box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1);
     transition: all 0.25s ease-out;
-    overflow:hidden;
-   
-    
+    overflow: hidden;
 }
 
-.wrapper .button:hover{
-    width:max-content;
+.wrapper .button:hover {
+    width: max-content;
     border-radius: 2%;
     text-align: center;
-   
-    
 }
-.wrapper .button .icon{
+
+.wrapper .button .icon {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -390,81 +372,62 @@ width: 100%;
     box-sizing: border-box;
     line-height: 40px;
     /* padding-left: 1%; */
-    
-    
 }
-.wrapper .button #fb{
+
+.wrapper .button #fb {
     font-family: cursive;
     font-size: 17px;
     font-weight: 900;
     line-height: 40px;
     margin-left: 10px;
-    
 }
 
-.wrapper .button:nth-child(1):hover .icon{
+.wrapper .button:nth-child(1):hover .icon {
     color: blueviolet
-    
-
 }
 
-.wrapper .button:nth-child(1):hover #fb{
+.wrapper .button:nth-child(1):hover #fb {
     color: blueviolet
-    
 }
 
-
-
-
-.wrapper .button:nth-child(2):hover .icon{
+.wrapper .button:nth-child(2):hover .icon {
     color: rgb(25, 159, 25);
-    
-
 }
 
-.wrapper .button:nth-child(2):hover #fb{
+.wrapper .button:nth-child(2):hover #fb {
     color: rgb(25, 159, 25);
-    
 }
 
-
-.wrapper .button:nth-child(3):hover .icon{
-    color: blue;
-
-}
-.wrapper .button:nth-child(3):hover #fb{
-    
+.wrapper .button:nth-child(3):hover .icon {
     color: blue;
 }
 
-
-
-.wrapper .button:nth-child(4):hover .icon{
-    color: black;
-
+.wrapper .button:nth-child(3):hover #fb {
+    color: blue;
 }
-.wrapper .button:nth-child(4):hover #fb{
 
+.wrapper .button:nth-child(4):hover .icon {
     color: black;
 }
 
-
-.wrapper .button:nth-child(5):hover .icon{
-    color:dodgerblue;
-
-}
-.wrapper .button:nth-child(5):hover #fb{
-    
-    color:dodgerblue;
-    
+.wrapper .button:nth-child(4):hover #fb {
+    color: black;
 }
 
-.foot .wrapper{
+.wrapper .button:nth-child(5):hover .icon {
+    color: dodgerblue;
+}
+
+.wrapper .button:nth-child(5):hover #fb {
+    color: dodgerblue;
+}
+
+.foot .wrapper {
     justify-content: center;
     padding: 10px;
 }
 
-.text-foot{
+.text-foot {
     font-family: cursive;
     color: black;
     font-size: 30px;
