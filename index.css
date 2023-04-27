@@ -7,6 +7,25 @@
     font-family: 'Courier New', Courier, monospace;
     
 }
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 300px;
+    /* Adjust the width as needed */
+    margin: 10px;
+}
+
+
+/* Media query for mobile devices */
+
+@media (max-width: 767px) {
+    .column {
+        flex-basis: 100%;
+    }
+}
 
 .head{
     height:100vh;
