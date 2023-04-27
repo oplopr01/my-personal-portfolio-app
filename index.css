@@ -61,7 +61,7 @@ nav ul li{
 } */
 
 .head {
-    height: 60vh;
+    height: 80vh;
     /* width: 100%; */
     background-image: url(./bg.jpg);
     background-color: rgba(118, 34, 126, 0.738);
