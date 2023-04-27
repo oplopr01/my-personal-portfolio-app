@@ -6,13 +6,7 @@
 }
 
 
-/*    @media (max-width: 767px) {
-       nav {
-           
-             font-size: 20px
-                                            } */
-
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     html,
     body {
         overflow-x: clip;
@@ -47,22 +41,8 @@ nav ul li{
     }
 
 
-/* @media (max-width: 767px) {
-    .column {
-        flex-basis: 100%;
-    }
-} */
-/* 
-@media screen and (max-width: 767px) {
-    
-    .main-about{
-        display: block;
-    }
-} */
-
 .head {
     height: 60vh;
-    /* width: 100%; */
     background-image: url(./bg.jpg);
     background-color: rgba(118, 34, 126, 0.738);
     background-size: cover;
@@ -86,10 +66,11 @@ nav {
 .intro-text {
     color: rgb(255, 255, 255);
     text-align: center;
+    background: rgba(214, 189, 189,0.2)
+   
    
 }
 .intro-text span{
-    /* background-color: aquamarine; */
     background: rgba(214, 189, 189,0.2)
 }
 
@@ -100,7 +81,6 @@ nav {
     position: clip;
     padding-top: 10%;
     padding-left: 60%;
-    /* padding-right: 25%; */
 }
 
 .download {
