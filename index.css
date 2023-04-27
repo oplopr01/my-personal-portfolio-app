@@ -6,8 +6,13 @@
 }
 
 
+/*    @media (max-width: 767px) {
+       nav {
+           
+             font-size: 20px
+                                            } */
 
-@media (max-width: 800px) {
+@media (max-width: 300px) {
     html,
     body {
         overflow-x: clip;
@@ -35,13 +40,25 @@ nav ul li{
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .head {
     background-position: 20% 0px!important;
     }
     }
 
 
+/* @media (max-width: 767px) {
+    .column {
+        flex-basis: 100%;
+    }
+} */
+/* 
+@media screen and (max-width: 767px) {
+    
+    .main-about{
+        display: block;
+    }
+} */
 
 .head {
     height: 60vh;
@@ -73,7 +90,7 @@ nav {
 }
 .intro-text span{
     /* background-color: aquamarine; */
-    background: rgba(214, 189, 189,0.2)
+    background: rgba(214, 189, 189,0.4)
 }
 
 .intro {
