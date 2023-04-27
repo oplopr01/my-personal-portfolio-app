@@ -12,7 +12,7 @@
              font-size: 20px
                                             } */
 
-@media (max-width: 300px) {
+@media (max-width: 800px) {
     html,
     body {
         overflow-x: clip;
@@ -40,7 +40,7 @@ nav ul li{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .head {
     background-position: 20% 0px!important;
     }
@@ -90,7 +90,7 @@ nav {
 }
 .intro-text span{
     /* background-color: aquamarine; */
-    background: rgba(214, 189, 189,0.4)
+    background: rgba(214, 189, 189,0.2)
 }
 
 .intro {
