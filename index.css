@@ -76,7 +76,7 @@ nav {
     justify-content: space-between;
     padding: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 20px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -104,7 +104,7 @@ nav {
     font-size: 15px;
     color: azure;
     position: clip;
-    padding-top: 10%;
+    padding-top: 20%;
     padding-left: 60%;
 }
 
