@@ -77,10 +77,10 @@ nav {
     padding: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    position: fixed;
+/*     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 100; */
 }
 
 #profile {
